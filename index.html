@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Delights - Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="normal">
+    <header>
+        <div class="container">
+            <h1><a href="index.html">Delicious Delights</a></h1>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="make_your_own_dish.html">Make Your Own Dish</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <label for="styleSwitcher">Choose a style: </label>
+                        <select id="styleSwitcher">
+                            <option value="normal">Normal</option>
+                            <option value="large">Larger text</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="welcome" class="container">
+            <h2>Welcome to Delicious Delights</h2>
+            <p>Your ultimate destination for mouthwatering recipes! Whether you're a seasoned chef or just starting out in the kitchen, we've got something for everyone.</p>
+            <p>Explore our wide range of recipes, from comforting classics to innovative creations. Each recipe comes with detailed instructions, so you can recreate the magic in your own kitchen.</p>
+        </section><br>
+        <section id="top-dishes" class="container">
+            <h2>My Top Dishes</h2>
+            <article class="dish">
+                <h3>Spaghetti Carbonara</h3>
+                <div class="dish-content">
+                    <img src="media/Carbonara.jpg" alt="Spaghetti Carbonara" class="thumbnail"><br>
+                    <div class="info">
+                        <table>
+                            <tr>
+                                <td>Cooking time:</td>
+                                <td>~30 mins</td>
+                            </tr>
+                            <tr>
+                                <td>Meat used:</td>
+                                <td>Pork</td>
+                            </tr>
+                            <tr>
+                                <td>Difficulty:</td>
+                                <td>Easy</td>
+                            </tr>
+                        </table><br>
+                        <p>Spaghetti Carbonara is a beloved Italian pasta dish known for its creamy sauce. Its popularity stems from its delicious flavor, ease of preparation, and comforting simplicity, making it a favorite among food enthusiasts worldwide.</p>
+                    </div>
+                </div>
+            </article><br>
+            <article class="dish">
+                <h3>Pelmeni (Dumplings)</h3>
+                <div class="dish-content">
+                    <div class="info">
+                        <table>
+                            <tr>
+                                <td>Cooking time:</td>
+                                <td>~2 hrs</td>
+                            </tr>
+                            <tr>
+                                <td>Meat used:</td>
+                                <td>Optional</td>
+                            </tr>
+                            <tr>
+                                <td>Difficulty:</td>
+                                <td>Normal</td>
+                            </tr>
+                        </table><br>
+                        <p>Pelmeni are Russian dumplings filled with minced meat and spices, boiled and typically served with sour cream or melted butter.</p>
+                    </div>
+                    <img src="media/Pelmeni_2.jpg" alt="Pelmeni (Dumplings)" class="thumbnail"><br>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <address>
+                <p>Author: Kirill Miasnikov <a href="mailto:ovn676@inf.elte.hu">ovn676@inf.elte.hu</a><br>
+                H-1119 Budapest, Noname street 70</p>
+            </address>
+        </div>
+    </footer>
+    <script src="js/styleswitch.js"></script>
+    <script src="js/go_to_top.js"></script>
+</body>
+</html>

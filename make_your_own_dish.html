@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Delights - Make Your Own Dish</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="normal">
+    <header>
+        <div class="container">
+            <h1><a href="index.html">Delicious Delights</a></h1>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="make_your_own_dish.html">Make Your Own Dish</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <label for="styleSwitcher">Choose a style: </label>
+                        <select id="styleSwitcher">
+                            <option value="normal">Normal</option>
+                            <option value="large">Larger text</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="welcome">
+            <h2>Make Your Own Dish</h2>
+            <p>Select your preferences and we'll suggest a dish for you!</p>
+        </section>
+        <form id="dish-form">
+            <fieldset>
+                <legend>Meat</legend>
+                <label><input type="checkbox" name="ingredient" value="beef"> Beef</label><br>
+                <label><input type="checkbox" name="ingredient" value="pork"> Pork</label><br>
+                <label><input type="checkbox" name="ingredient" value="chicken"> Chicken</label><br>
+                <label><input type="checkbox" name="ingredient" value="none"> None</label><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>Rice, Pasta</legend>
+                <label><input type="radio" name="time" value="rice"> Rice</label><br>
+                <label><input type="radio" name="time" value="pasta"> Pasta</label><br>
+                <label><input type="radio" name="time" value="none"> None</label><br>
+            </fieldset><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        <div id="dish-result" class="hidden"></div>
+    </main><br><br><br><br><br>
+    <footer>
+        <div class="container">
+            <address>
+                <p>Author: Kirill Miasnikov <a href="mailto:ovn676@inf.elte.hu">ovn676@inf.elte.hu</a><br>
+                H-1119 Budapest, Noname street 70</p>
+            </address>
+        </div>
+    </footer>
+    <script src="js/styleswitch.js"></script>
+    <script src="js/make_your_own_dish.js"></script>
+    <script src="js/go_to_top.js"></script>
+</body>
+</html>
