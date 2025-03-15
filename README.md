@@ -1,2 +1,2 @@
 # Delicious-Delights
-The website with recipes of different meals from all over the world. Created as an assignment for my Web Development course in University
+This website features recipes for different meals from all over the world. It was created as an assignment for my Web Development course at University.
